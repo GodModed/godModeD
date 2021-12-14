@@ -1,6 +1,6 @@
 <div align="center">
   <br>
-  <img alt="Title" src="https://see.fontimg.com/api/renderfont4/nRLyO/eyJyIjoiZnMiLCJoIjoxNDAsInciOjEwMDAsImZzIjoxNDAsImZnYyI6IiMxOUNGRUMiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/SGV5eQ/alloy-ink.png" width="333" hight="153"> <br>
+  <img alt="Title" src="https://see.fontimg.com/api/renderfont4/GOZ5A/eyJyIjoiZnMiLCJoIjoyMDAsInciOjEwMDAsImZzIjoyMDAsImZnYyI6IiMyRTc0RDQiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/SGV5eQ/acakadut.png" width="333" hight="153"> <br>
   <img alt="Discord" src="https://img.shields.io/badge/Discord-God%20Mode%230949-%235539cc">
   <img alt="Twitter" src="https://img.shields.io/badge/Twitter-IGNGod__Mode-%2300acee">
   <br>
