@@ -1,3 +1,6 @@
+<div id="age">I am x years old!
+</div>
+
 <script>
   function getAge(dateString) {
     var today = new Date();
@@ -13,7 +16,6 @@
   document.getElementById("age").innerHTML = `Hi, I am ${getAge("20071229")}`
 </script>
 
-<a id="age">I am x years old!</a>
 
 
 
