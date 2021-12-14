@@ -13,7 +13,7 @@
   document.getElementById("age").innerHTML = `Hi, I am ${getAge("20071229")}`
 </script>
 
-<p id="age">I am x year old!</p>
+<a id="age">I am x years old!</a>
 
 
 
