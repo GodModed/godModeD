@@ -5,6 +5,7 @@
   <img alt="Twitter" src="https://img.shields.io/badge/Twitter-IGNGod__Mode-%2300acee">
   <br>
   <br>
+  <a>Hii, I'm Dylan.\n I'm 14.</a>
   <br>
   <img src="https://github-readme-stats.vercel.app/api?username=godModeD&show_icons=true&theme=github_dark&hide_border=true"/>
 </div>
