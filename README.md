@@ -1,10 +1,4 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
-<style>
-  div {
-    font-family: "PT+Sans", sans-serif;
-  }
-</style>
-
 
 <div align="center">
   <br>
@@ -13,7 +7,7 @@
   <img alt="Twitter" src="https://img.shields.io/badge/Twitter-IGNGod__Mode-%2300acee">
   <br>
   <br>
-  <a style="color::blue">Hii, I'm Dylan. <br> I'm 14.</a>
+  <a style="color:blue,font-family:PT+Sans">Hii, I'm Dylan. <br> I'm 14.</a>
   <br>
   <img src="https://github-readme-stats.vercel.app/api?username=godModeD&show_icons=true&theme=github_dark&hide_border=true"/>
 </div>
