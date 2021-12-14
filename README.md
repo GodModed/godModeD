@@ -1,6 +1,3 @@
-<h>Hey!</h>
-<p>I'm Dylan</p>
-
 <div align="center">
   <br>
   <img alt="Tittle" src="https://www.hey.com/assets/press/logos/hey-logo.png" width="333" hight="153"> <br>
