@@ -9,6 +9,6 @@
   <br>
   <a style="color:blue,font-family:PT+Sans">Hii, I'm Dylan. <br> I'm 14.</a>
   <br>
-  <img src="https://github-readme-stats.vercel.app/api?username=godModeD&show_icons=true&theme=github_dark&hide_border=true"/> <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=godmoded&layout=compact&theme=github_dark&hide_border=true"/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=godModeD&show_icons=true&theme=github_dark&hide_border=true"/> <br>
+  <img align"center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=godmoded&layout=compact&theme=github_dark&hide_border=true"/>
 </div>
