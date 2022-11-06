@@ -1,3 +1,5 @@
+![](https://komarev.com/ghpvc/?username=GodModed&style=for-the-badge)
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
 
 <div align="center">
