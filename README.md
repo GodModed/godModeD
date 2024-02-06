@@ -8,7 +8,7 @@
   <img alt="Twitter" src="https://img.shields.io/badge/Twitter-IGNGod__Mode-%2300acee?style=for-the-badge">
   <br>
   <br>
-  <a style="color:blue,font-family:PT+Sans">Hii, I'm Dylan. <br> I'm 15.</a>
+  <a style="color:blue,font-family:PT+Sans">Hii, I'm Dylan. <br> I'm 16.</a>
   <br>
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=godModeD&show_icons=true&theme=github_dark&hide_border=true"/> <br>
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=godmoded&layout=compact&theme=github_dark&hide_border=true"/> <br>
