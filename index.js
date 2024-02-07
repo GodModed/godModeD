@@ -16,6 +16,7 @@ app.get('/', (req, res) => {
         .replace('{age}', Math.floor((10 * (new Date() - birthday) / 31556952000)) / 10);
 
     res.set('Content-Type', 'image/svg+xml');
+    res.set('Cache-Control', 'no-store');
     res.send(replacedSvg);
 });
 
