@@ -1,4 +1,4 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 608.9999999999998 262.9999999999997" width="608.9999999999998" height="262.9999999999997" filter="invert(93%) hue-rotate(180deg)">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 608.9999999999998 989.9999999999997" width="608.9999999999998" height="989.9999999999997" filter="invert(93%) hue-rotate(180deg)">
   <!-- svg-source:excalidraw -->
   <defs>
     <style class="style-fonts">
@@ -8,10 +8,14 @@
       }
     </style>
   </defs>
-  <g stroke-linecap="round" transform="translate(10 10) rotate(0 294.4999999999999 121.49999999999986)">
-    <path d="M32 0 C180.48 0, 328.97 0, 557 0 C578.33 0, 589 10.67, 589 32 C589 86.03, 589 140.07, 589 211 C589 232.33, 578.33 243, 557 243 C358.38 243, 159.77 243, 32 243 C10.67 243, 0 232.33, 0 211 C0 145.64, 0 80.29, 0 32 C0 10.67, 10.67 0, 32 0" stroke="none" stroke-width="0" fill="#ffffff"></path>
-    <path d="M32 0 C174.31 0, 316.62 0, 557 0 M32 0 C180.02 0, 328.04 0, 557 0 M557 0 C578.33 0, 589 10.67, 589 32 M557 0 C578.33 0, 589 10.67, 589 32 M589 32 C589 77.94, 589 123.89, 589 211 M589 32 C589 76.28, 589 120.56, 589 211 M589 211 C589 232.33, 578.33 243, 557 243 M589 211 C589 232.33, 578.33 243, 557 243 M557 243 C381.67 243, 206.35 243, 32 243 M557 243 C384.58 243, 212.15 243, 32 243 M32 243 C10.67 243, 0 232.33, 0 211 M32 243 C10.67 243, 0 232.33, 0 211 M0 211 C0 158.58, 0 106.15, 0 32 M0 211 C0 148.04, 0 85.07, 0 32 M0 32 C0 10.67, 10.67 0, 32 0 M0 32 C0 10.67, 10.67 0, 32 0" stroke="#1e1e1e" stroke-width="2" fill="none"></path>
-  </g>
+    <g stroke-linecap="round" transform="translate(10 10) rotate(0 294.4999999999999 484.99999999999983)">
+        <path
+            d="M32 0 C180.48 0, 328.97 0, 557 0 C578.33 0, 589 10.67, 589 32 C589 305.49, 589 578.99, 589 938 C589 959.33, 578.33 970, 557 970 C358.38 970, 159.77 970, 32 970 C10.67 970, 0 959.33, 0 938 C0 607.2, 0 276.41, 0 32 C0 10.67, 10.67 0, 32 0"
+            stroke="none" stroke-width="0" fill="#ffffff"></path>
+        <!-- <path
+            d="M32 0 C174.31 0, 316.62 0, 557 0 M32 0 C180.02 0, 328.04 0, 557 0 M557 0 C578.33 0, 589 10.67, 589 32 M557 0 C578.33 0, 589 10.67, 589 32 M589 32 C589 264.54, 589 497.07, 589 938 M589 32 C589 256.11, 589 480.23, 589 938 M589 938 C589 959.33, 578.33 970, 557 970 M589 938 C589 959.33, 578.33 970, 557 970 M557 970 C381.67 970, 206.35 970, 32 970 M557 970 C384.58 970, 212.15 970, 32 970 M32 970 C10.67 970, 0 959.33, 0 938 M32 970 C10.67 970, 0 959.33, 0 938 M0 938 C0 672.66, 0 407.32, 0 32 M0 938 C0 619.31, 0 300.63, 0 32 M0 32 C0 10.67, 10.67 0, 32 0 M0 32 C0 10.67, 10.67 0, 32 0"
+            stroke="#1e1e1e" stroke-width="2" fill="none"></path> -->
+    </g>
   <g transform="translate(159.99999999999977 40) rotate(0 140.741943359375 22.5)">
     <text x="140.741943359375" y="0" font-family="Virgil, Segoe UI Emoji" font-size="36px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Hey!!! I'm Dylan.</text>
   </g>
@@ -36,4 +40,5 @@
   <g transform="translate(385.02806854248024 153.49999999999983) rotate(0 96.47193145751953 10)">
     <text x="96.47193145751953" y="0" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#1da1f2 " text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Twitter | IGNGod_Mode</text>
   </g>
+  {stats}
 </svg>
