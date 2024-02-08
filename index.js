@@ -3,13 +3,24 @@ const app = express();
 const axios = require('axios');
 
 const THEME = 'graywhite';
+const WAKATIME_USERNAME = 'GodMode';
+const GITHUB_USERNAME = 'Godmoded';
 
-const externalSvgs = [`https://github-readme-stats.vercel.app/api?username=GodModed&show_icons=true&theme=${THEME}&hide_border=true`,
-    `https://github-readme-stats.vercel.app/api/top-langs/?username=Godmoded&layout=compact&theme=${THEME}&hide_border=true`,
-    `https://github-readme-stats.vercel.app/api/wakatime?username=GodMode&theme=${THEME}&layout=compact&langs_count=12&hide_border=true`]
+// title 
+const TITLE = 'Hey!! I am Dylan.';
+// {age} will be replaced with the actual age
+const SUBTITLE = 'I am {age} years old';
+// year-month-day
+const BIRTHDAY = '2007-12-29';
+const DISCORD = 'GodModed';
+const TWITTER = 'IGNGod_Mode';
+
+const externalSvgs = [`https://github-readme-stats.vercel.app/api?username=${GITHUB_USERNAME}&show_icons=true&theme=${THEME}&hide_border=true`,
+    `https://github-readme-stats.vercel.app/api/top-langs/?username=${GITHUB_USERNAME}&layout=compact&theme=${THEME}&hide_border=true`,
+    `https://github-readme-stats.vercel.app/api/wakatime?username=${WAKATIME_USERNAME}&theme=${THEME}&layout=compact&langs_count=12&hide_border=true`]
 
 // december 29, 2007
-const birthday = new Date('2007-12-29');
+const birthday = new Date(BIRTHDAY);
 
 const fs = require('fs');
 let count = parseInt(fs.readFileSync('count.txt', 'utf8')) || 0;
@@ -18,9 +29,13 @@ const svg = fs.readFileSync('readme.svg', 'utf8');
 
 app.get('/', async (req, res) => {
     count++;
+    const age = Math.floor((10 * (new Date() - birthday) / 31556952000)) / 10;
     let replacedSvg = svg
-        .replace('{viw}', count)
-        .replace('{age}', Math.floor((10 * (new Date() - birthday) / 31556952000)) / 10);
+        .replace('{count}', count)
+        .replace('{title}', TITLE)
+        .replace('{subtitle}', SUBTITLE.replace('{age}', age))
+        .replace('{discord}', DISCORD)
+        .replace('{twitter}', TWITTER);
     
     let stats = await getReadmeStats();
     replacedSvg = replacedSvg.replace('{stats}', stats.join('\n'));

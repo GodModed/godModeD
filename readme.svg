@@ -17,28 +17,28 @@
             stroke="#1e1e1e" stroke-width="2" fill="none"></path> -->
     </g>
   <g transform="translate(159.99999999999977 40) rotate(0 140.741943359375 22.5)">
-    <text x="140.741943359375" y="0" font-family="Virgil, Segoe UI Emoji" font-size="36px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Hey!!! I'm Dylan.</text>
+    <text x="140.741943359375" y="0" font-family="Virgil, Segoe UI Emoji" font-size="36px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">{title}</text>
   </g>
   <g transform="translate(205.1011047363279 97.49999999999983) rotate(0 97.6999282836914 12.5)">
-    <text x="97.6999282836914" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">I'm {age} years old</text>
+    <text x="97.6999282836914" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">{subtitle}</text>
   </g>
   <g stroke-linecap="round" transform="translate(24.999999999999773 146.49999999999983) rotate(0 85.5 18)">
     <path d="M9 0 C61.4 0, 113.79 0, 162 0 M9 0 C55.36 0, 101.72 0, 162 0 M162 0 C168 0, 171 3, 171 9 M162 0 C168 0, 171 3, 171 9 M171 9 C171 13.6, 171 18.19, 171 27 M171 9 C171 13.18, 171 17.36, 171 27 M171 27 C171 33, 168 36, 162 36 M171 27 C171 33, 168 36, 162 36 M162 36 C116.43 36, 70.87 36, 9 36 M162 36 C124.51 36, 87.01 36, 9 36 M9 36 C3 36, 0 33, 0 27 M9 36 C3 36, 0 33, 0 27 M0 27 C0 20.69, 0 14.38, 0 9 M0 27 C0 21.95, 0 16.89, 0 9 M0 9 C0 3, 3 0, 9 0 M0 9 C0 3, 3 0, 9 0" stroke="#1e1e1e" stroke-width="2" fill="none"></path>
   </g>
   <g transform="translate(33.03606414794899 154.49999999999983) rotate(0 77.46393585205078 10)">
-    <text x="77.46393585205078" y="0" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Profile Views | {viw}</text>
+    <text x="77.46393585205078" y="0" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Profile Views | {count}</text>
   </g>
   <g stroke-linecap="round" transform="translate(201.49999999999977 145.99999999999983) rotate(0 85.5 17.5)">
     <path d="M8.75 0 C56.55 0, 104.36 0, 162.25 0 M8.75 0 C54.89 0, 101.03 0, 162.25 0 M162.25 0 C168.08 0, 171 2.92, 171 8.75 M162.25 0 C168.08 0, 171 2.92, 171 8.75 M171 8.75 C171 14.16, 171 19.58, 171 26.25 M171 8.75 C171 14.38, 171 20.02, 171 26.25 M171 26.25 C171 32.08, 168.08 35, 162.25 35 M171 26.25 C171 32.08, 168.08 35, 162.25 35 M162.25 35 C112.04 35, 61.82 35, 8.75 35 M162.25 35 C106.72 35, 51.19 35, 8.75 35 M8.75 35 C2.92 35, 0 32.08, 0 26.25 M8.75 35 C2.92 35, 0 32.08, 0 26.25 M0 26.25 C0 22.21, 0 18.17, 0 8.75 M0 26.25 C0 22.16, 0 18.07, 0 8.75 M0 8.75 C0 2.92, 2.92 0, 8.75 0 M0 8.75 C0 2.92, 2.92 0, 8.75 0" stroke="#5865f2" stroke-width="2" fill="none"></path>
   </g>
   <g transform="translate(209.5440521240232 153.49999999999983) rotate(0 77.45594787597656 10)">
-    <text x="77.45594787597656" y="0" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#5865f2" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Discord | GodModed</text>
+    <text x="77.45594787597656" y="0" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#5865f2" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Discord | {discord}</text>
   </g>
   <g stroke-linecap="round" transform="translate(379.4999999999998 145.99999999999983) rotate(0 102 17.5)">
     <path d="M8.75 0 C72.33 0, 135.91 0, 195.25 0 M8.75 0 C66.25 0, 123.75 0, 195.25 0 M195.25 0 C201.08 0, 204 2.92, 204 8.75 M195.25 0 C201.08 0, 204 2.92, 204 8.75 M204 8.75 C204 12.71, 204 16.66, 204 26.25 M204 8.75 C204 14.97, 204 21.19, 204 26.25 M204 26.25 C204 32.08, 201.08 35, 195.25 35 M204 26.25 C204 32.08, 201.08 35, 195.25 35 M195.25 35 C126.32 35, 57.38 35, 8.75 35 M195.25 35 C148.31 35, 101.37 35, 8.75 35 M8.75 35 C2.92 35, 0 32.08, 0 26.25 M8.75 35 C2.92 35, 0 32.08, 0 26.25 M0 26.25 C0 20.2, 0 14.15, 0 8.75 M0 26.25 C0 19.86, 0 13.48, 0 8.75 M0 8.75 C0 2.92, 2.92 0, 8.75 0 M0 8.75 C0 2.92, 2.92 0, 8.75 0" stroke="#1da1f2 " stroke-width="2" fill="none"></path>
   </g>
   <g transform="translate(385.02806854248024 153.49999999999983) rotate(0 96.47193145751953 10)">
-    <text x="96.47193145751953" y="0" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#1da1f2 " text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Twitter | IGNGod_Mode</text>
+    <text x="96.47193145751953" y="0" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#1da1f2 " text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Twitter | {twitter}</text>
   </g>
   {stats}
 </svg>
