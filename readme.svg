@@ -40,5 +40,3 @@
   <g transform="translate(385.02806854248024 153.49999999999983) rotate(0 96.47193145751953 10)">
     <text x="96.47193145751953" y="0" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#1da1f2 " text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Twitter | {twitter}</text>
   </g>
-  {stats}
-</svg>

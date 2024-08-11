@@ -28,6 +28,10 @@ let count = parseInt(fs.readFileSync('count.txt', 'utf8')) || 0;
 const svg = fs.readFileSync('readme.svg', 'utf8');
 
 app.get('/', async (req, res) => {
+
+    res.set('Content-Type', 'image/svg+xml');
+    res.set('Cache-Control', 'public, max-age=0, must-revalidate');
+
     count++;
     const age = Math.floor((10 * (new Date() - birthday) / 31556952000)) / 10;
     let replacedSvg = svg
@@ -37,13 +41,13 @@ app.get('/', async (req, res) => {
         .replace('{discord}', DISCORD)
         .replace('{twitter}', TWITTER);
     
-    let stats = await getReadmeStats();
-    replacedSvg = replacedSvg.replace('{stats}', stats.join('\n'));
-    
+    // let stats = await getReadmeStats();
+    // replacedSvg = replacedSvg.replace('{stats}', stats.join('\n'));
+    res.write(replacedSvg);
+    const stats = await getReadmeStats();
 
-    res.set('Content-Type', 'image/svg+xml');
-    res.set('Cache-Control', 'public, max-age=0, must-revalidate');
-    res.send(replacedSvg);
+    res.write(stats.join('\n'));
+    res.end('</svg>');
 });
 
 async function getReadmeStats() {
