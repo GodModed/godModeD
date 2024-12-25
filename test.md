@@ -42,3 +42,4 @@
     <text x="96.47193145751953" y="0" font-family="Virgil, Segoe UI Emoji" font-size="16px" fill="#1da1f2 " text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Twitter | {twitter}</text>
      </a>
   </g>
+</svg>
