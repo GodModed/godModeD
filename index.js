@@ -15,9 +15,9 @@ const BIRTHDAY = '2007-12-29';
 const DISCORD = 'GodModed';
 const TWITTER = 'IGNGod_Mode';
 
-const externalSvgs = [`https://github-readme-stats.vercel.app/api?username=${GITHUB_USERNAME}&show_icons=true&theme=${THEME}&hide_border=true`,
-    `https://github-readme-stats.vercel.app/api/top-langs/?username=${GITHUB_USERNAME}&layout=compact&theme=${THEME}&hide_border=true`,
-    `https://github-readme-stats.vercel.app/api/wakatime?username=${WAKATIME_USERNAME}&theme=${THEME}&layout=compact&langs_count=12&hide_border=true`]
+const externalSvgs = [`http://localhost:9000/api?username=${GITHUB_USERNAME}&show_icons=true&theme=${THEME}&hide_border=true`,
+    `http://localhost:9000/api/top-langs/?username=${GITHUB_USERNAME}&layout=compact&theme=${THEME}&hide_border=true`,
+    `http://localhost:9000/api/wakatime?username=${WAKATIME_USERNAME}&theme=${THEME}&layout=compact&langs_count=12&hide_border=true`]
 
 // december 29, 2007
 const birthday = new Date(BIRTHDAY);
