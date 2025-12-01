@@ -26,7 +26,6 @@ const fs = require('fs');
 let count = parseInt(fs.readFileSync('count.txt', 'utf8')) || 0;
 
 const svg = fs.readFileSync('readme.svg', 'utf8');
-
 app.get('/', async (req, res) => {
 
     res.set('Content-Type', 'image/svg+xml');
