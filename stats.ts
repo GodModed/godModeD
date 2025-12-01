@@ -25,7 +25,7 @@ export default async function getStats(): Promise<string> {
     const githubStats = await fetchStats(GITHUB_USERNAME, true, [], true, false, false, undefined);
     const githubStatsCard = renderStatsCard(githubStats, {
         show_icons: true,
-        hide_border: false,
+        hide_border: true,
         /* @ts-ignore */
         theme: THEME
     }).replace("<svg", `<svg x="100px" y="450px"`);
